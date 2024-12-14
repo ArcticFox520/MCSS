@@ -1,9 +1,0 @@
-#!/bin/env bash
-AFHOME=$1
-source $AFHOME/Manage/config
-MCversion=$(cat version)
-ServerName=$2
-config=$AFHOME/Manage/config
-StartSoftwarePath=$AFHOME/Manage/StartSoftware
-ServerPropertiesPath=$AFHOME/Manage/Java/ServerProperties.json
-
