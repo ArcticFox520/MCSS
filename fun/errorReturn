@@ -1,0 +1,12 @@
+#!/bin/env bash
+function errorReturn(){
+echo -en "
+${white}————————————————————
+    脚本运行出现${red}错误$white,请及时${blue}截图${white},保存报错信息,
+    以与便开发者,${green}更好的${white}和${green}更快的${cyan}解决${white}问题.
+${white}————————————————————${background}"
+while true
+do
+  read
+done
+}

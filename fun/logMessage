@@ -1,0 +1,10 @@
+#!/bin/env bash
+function log.info(){
+  echo -e [${green}提示${white}][$(printTime)]${green}"$1"${background}
+}
+function log.warn(){
+  echo -e [${yellow}警告${white}][$(printTime)]${yellow}"$1"${background}
+}
+function log.error(){
+  echo -e [${red}错误${white}][$(printTime)]${red}"$1"${background}
+}

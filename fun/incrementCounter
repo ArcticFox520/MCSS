@@ -1,0 +1,14 @@
+#!/bin/env bash
+function incrementCounter(){
+  if [ -z ${count} ]
+  then
+    export count=0
+  fi
+  ((count++))
+  case ${count} in
+    3)
+      export count=0
+      return 1
+  esac
+  return 0
+}

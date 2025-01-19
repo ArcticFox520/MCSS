@@ -1,0 +1,11 @@
+#!/bin/env bash
+function TUISoftware(){
+if [ -x "$(command -v whiptail)" ];then
+  echo whiptail
+elif [ -x "$(command -v dialog)" ];then
+  echo dialog
+else
+  log.error "未安装TUI软件"
+  exit 1
+fi
+}

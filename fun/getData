@@ -1,0 +1,14 @@
+#!/bin/env bash
+function getData(){
+  until curl "$1"
+  do
+    if IncrementCounter
+    then
+      log.warn "数据获取失败 重试中"
+    else
+      log.error "数据无法获取 请检查"
+      errorReturn
+    fi
+    sleep 3s
+  done
+}

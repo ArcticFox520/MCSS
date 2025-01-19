@@ -1,0 +1,32 @@
+#!/bin/env bash
+import getData
+import setMsgboxSize
+import setMenuSize
+# $1=Java
+TitleText="'$1'-部署"
+ApiURL="https://launchermeta.mojang.com/mc/game/version_manifest.json"
+
+if $($(TUISoftware) --title "${TitleText}"  \
+--yes-button "稳定版" \
+--no-button "快照版" \
+--yesno "请选择您将要部署的'$1'版本类型" \
+$(setMsgboxSize))
+then
+  VersionType="release"
+else
+  VersionType="snapshot"
+fi
+
+log.info "正在获取 [${VersionType}] 版本数据"
+VersionData=$(getData "${ApiURL}" | jq -r ".versions[] | select(.type == \"$VersionType\") | .id")
+unset Options i
+for i in ${VersionData[@]}
+do
+  Options="${Options} ${i} Java"
+done
+
+JavaVersion=$($(TUISoftware) \
+--title "${TitleText}" --menu \
+$(setMenuSize) \
+${Options} \
+3>&1 1>&2 2>&3)

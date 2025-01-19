@@ -1,0 +1,16 @@
+#!/bin/env bash
+function MsgboxSize(){
+local HEIGHT=$(($(tput lines) - 15))
+local WIDTH=$(($(tput cols) - 5))
+if (( $HEIGHT <= 0 ));then
+  log.error "您的屏幕高度过低."
+  log.error "考虑缩小终端字体."
+  exit
+fi
+if (( $WIDTH <= 0 ));then
+  log.error "您的屏幕宽度过窄."
+  log.error "考虑缩小终端字体."
+  exit
+fi
+echo ${HEIGHT} ${WIDTH}
+}

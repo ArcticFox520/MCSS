@@ -1,0 +1,5 @@
+#!/bin/env bash
+function printTime(){
+  local date=$(date +"%H:%M:%S")
+  echo ${date}
+}
