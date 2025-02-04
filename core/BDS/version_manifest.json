@@ -1,0 +1,1860 @@
+{
+  "version": [
+    {
+      "id": "1.6.0.15",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.6.0.15.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.6.0.15.zip"
+      }
+    },
+    {
+      "id": "1.6.1.0",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.6.1.0.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.6.1.0.zip"
+      }
+    },
+    {
+      "id": "1.7.0.13",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.7.0.13.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.7.0.13.zip"
+      }
+    },
+    {
+      "id": "1.8.0.24",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.8.0.24.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.8.0.24.zip"
+      }
+    },
+    {
+      "id": "1.8.1.2",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.8.1.2.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.8.1.2.zip"
+      }
+    },
+    {
+      "id": "1.9.0.15",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.9.0.15.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.9.0.15.zip"
+      }
+    },
+    {
+      "id": "1.10.0.7",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.10.0.7.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.10.0.7.zip"
+      }
+    },
+    {
+      "id": "1.11.0.23",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.11.0.23.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.11.0.23.zip"
+      }
+    },
+    {
+      "id": "1.11.1.2",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.11.1.2.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.11.1.2.zip"
+      }
+    },
+    {
+      "id": "1.11.2.1",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.11.2.1.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.11.2.1.zip"
+      }
+    },
+    {
+      "id": "1.11.4.2",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.11.4.2.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.11.4.2.zip"
+      }
+    },
+    {
+      "id": "1.12.0.28",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.12.0.28.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.12.0.28.zip"
+      }
+    },
+    {
+      "id": "1.12.1.1",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.12.1.1.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.12.1.1.zip"
+      }
+    },
+    {
+      "id": "1.13.0.34",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.13.0.34.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.13.0.34.zip"
+      }
+    },
+    {
+      "id": "1.13.1.5",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.13.1.5.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.13.1.5.zip"
+      }
+    },
+    {
+      "id": "1.13.2.0",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.13.2.0.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.13.2.0.zip"
+      }
+    },
+    {
+      "id": "1.13.3.0",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.13.3.0.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.13.3.0.zip"
+      }
+    },
+    {
+      "id": "1.14.0.9",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.14.0.9.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.14.0.9.zip"
+      }
+    },
+    {
+      "id": "1.14.1.4",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.14.1.4.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.14.1.4.zip"
+      }
+    },
+    {
+      "id": "1.14.20.1",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.14.20.1.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.14.20.1.zip"
+      }
+    },
+    {
+      "id": "1.14.21.0",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.14.21.0.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.14.21.0.zip"
+      }
+    },
+    {
+      "id": "1.14.30.2",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.14.30.2.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.14.30.2.zip"
+      }
+    },
+    {
+      "id": "1.14.32.1",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.14.32.1.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.14.32.1.zip"
+      }
+    },
+    {
+      "id": "1.14.60.5",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.14.60.5.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.14.60.5.zip"
+      }
+    },
+    {
+      "id": "1.16.0.2",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.0.2.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.0.2.zip"
+      }
+    },
+    {
+      "id": "1.16.1.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.1.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.1.02.zip"
+      }
+    },
+    {
+      "id": "1.16.20.03",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.20.03.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.20.03.zip"
+      }
+    },
+    {
+      "id": "1.16.40.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.40.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.40.02.zip"
+      }
+    },
+    {
+      "id": "1.16.100.04",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.100.04.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.100.04.zip"
+      }
+    },
+    {
+      "id": "1.16.101.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.101.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.101.01.zip"
+      }
+    },
+    {
+      "id": "1.16.200.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.200.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.200.02.zip"
+      }
+    },
+    {
+      "id": "1.16.201.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.201.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.201.02.zip"
+      }
+    },
+    {
+      "id": "1.16.201.03",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.201.03.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.201.03.zip"
+      }
+    },
+    {
+      "id": "1.16.210.05",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.210.05.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.210.05.zip"
+      }
+    },
+    {
+      "id": "1.16.210.06",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.210.06.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.210.06.zip"
+      }
+    },
+    {
+      "id": "1.16.220.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.220.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.220.02.zip"
+      }
+    },
+    {
+      "id": "1.16.221.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.221.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.221.01.zip"
+      }
+    },
+    {
+      "id": "1.17.0.03",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.0.03.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.0.03.zip"
+      }
+    },
+    {
+      "id": "1.17.1.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.1.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.1.01.zip"
+      }
+    },
+    {
+      "id": "1.17.2.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.2.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.2.01.zip"
+      }
+    },
+    {
+      "id": "1.17.10.04",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.10.04.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.10.04.zip"
+      }
+    },
+    {
+      "id": "1.17.11.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.11.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.11.01.zip"
+      }
+    },
+    {
+      "id": "1.17.30.04",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.30.04.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.30.04.zip"
+      }
+    },
+    {
+      "id": "1.17.31.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.31.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.31.01.zip"
+      }
+    },
+    {
+      "id": "1.17.32.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.32.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.32.02.zip"
+      }
+    },
+    {
+      "id": "1.17.33.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.33.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.33.01.zip"
+      }
+    },
+    {
+      "id": "1.17.34.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.34.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.34.02.zip"
+      }
+    },
+    {
+      "id": "1.17.40.06",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.40.06.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.40.06.zip"
+      }
+    },
+    {
+      "id": "1.17.41.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.41.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.41.01.zip"
+      }
+    },
+    {
+      "id": "1.18.0.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.18.0.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.18.0.02.zip"
+      }
+    },
+    {
+      "id": "1.18.1.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.18.1.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.18.1.02.zip"
+      }
+    },
+    {
+      "id": "1.18.2.03",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.18.2.03.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.18.2.03.zip"
+      }
+    },
+    {
+      "id": "1.18.11.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.18.11.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.18.11.01.zip"
+      }
+    },
+    {
+      "id": "1.18.12.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.18.12.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.18.12.01.zip"
+      }
+    },
+    {
+      "id": "1.18.30.04",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.18.30.04.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.18.30.04.zip"
+      }
+    },
+    {
+      "id": "1.18.31.04",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.18.31.04.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.18.31.04.zip"
+      }
+    },
+    {
+      "id": "1.18.32.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.18.32.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.18.32.02.zip"
+      }
+    },
+    {
+      "id": "1.18.33.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.18.33.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.18.33.02.zip"
+      }
+    },
+    {
+      "id": "1.19.10.20",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.10.20.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.10.20.zip"
+      }
+    },
+    {
+      "id": "1.19.1.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.1.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.1.01.zip"
+      }
+    },
+    {
+      "id": "1.19.2.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.2.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.2.02.zip"
+      }
+    },
+    {
+      "id": "1.19.10.03",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.10.03.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.10.03.zip"
+      }
+    },
+    {
+      "id": "1.19.11.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.11.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.11.01.zip"
+      }
+    },
+    {
+      "id": "1.19.20.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.20.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.20.02.zip"
+      }
+    },
+    {
+      "id": "1.19.21.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.21.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.21.01.zip"
+      }
+    },
+    {
+      "id": "1.19.22.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.22.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.22.01.zip"
+      }
+    },
+    {
+      "id": "1.19.30.04",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.30.04.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.30.04.zip"
+      }
+    },
+    {
+      "id": "1.19.31.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.31.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.31.01.zip"
+      }
+    },
+    {
+      "id": "1.19.40.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.40.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.40.02.zip"
+      }
+    },
+    {
+      "id": "1.19.41.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.41.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.41.01.zip"
+      }
+    },
+    {
+      "id": "1.19.50.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.50.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.50.02.zip"
+      }
+    },
+    {
+      "id": "1.19.51.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.51.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.51.01.zip"
+      }
+    },
+    {
+      "id": "1.19.52.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.52.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.52.01.zip"
+      }
+    },
+    {
+      "id": "1.19.60.04",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.60.04.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.60.04.zip"
+      }
+    },
+    {
+      "id": "1.19.61.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.61.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.61.01.zip"
+      }
+    },
+    {
+      "id": "1.19.62.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.62.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.62.01.zip"
+      }
+    },
+    {
+      "id": "1.19.63.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.63.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.63.01.zip"
+      }
+    },
+    {
+      "id": "1.19.70.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.70.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.70.02.zip"
+      }
+    },
+    {
+      "id": "1.19.71.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.71.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.71.02.zip"
+      }
+    },
+    {
+      "id": "1.19.72.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.72.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.72.01.zip"
+      }
+    },
+    {
+      "id": "1.19.73.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.73.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.73.02.zip"
+      }
+    },
+    {
+      "id": "1.19.80.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.80.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.80.02.zip"
+      }
+    },
+    {
+      "id": "1.19.81.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.81.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.81.01.zip"
+      }
+    },
+    {
+      "id": "1.19.83.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.83.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.83.01.zip"
+      }
+    },
+    {
+      "id": "1.20.0.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.0.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.0.01.zip"
+      }
+    },
+    {
+      "id": "1.20.1.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.1.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.1.02.zip"
+      }
+    },
+    {
+      "id": "1.20.10.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.10.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.10.01.zip"
+      }
+    },
+    {
+      "id": "1.20.11.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.11.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.11.01.zip"
+      }
+    },
+    {
+      "id": "1.20.12.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.12.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.12.01.zip"
+      }
+    },
+    {
+      "id": "1.20.13.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.13.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.13.01.zip"
+      }
+    },
+    {
+      "id": "1.20.14.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.14.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.14.01.zip"
+      }
+    },
+    {
+      "id": "1.20.15.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.15.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.15.01.zip"
+      }
+    },
+    {
+      "id": "1.20.30.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.30.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.30.02.zip"
+      }
+    },
+    {
+      "id": "1.20.31.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.31.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.31.01.zip"
+      }
+    },
+    {
+      "id": "1.20.32.03",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.32.03.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.32.03.zip"
+      }
+    },
+    {
+      "id": "1.20.40.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.40.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.40.01.zip"
+      }
+    },
+    {
+      "id": "1.20.41.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.41.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.41.02.zip"
+      }
+    },
+    {
+      "id": "1.20.50.03",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.50.03.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.50.03.zip"
+      }
+    },
+    {
+      "id": "1.20.51.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.51.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.51.01.zip"
+      }
+    },
+    {
+      "id": "1.20.61.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.61.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.61.01.zip"
+      }
+    },
+    {
+      "id": "1.20.62.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.62.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.62.01.zip"
+      }
+    },
+    {
+      "id": "1.20.62.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.62.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.62.02.zip"
+      }
+    },
+    {
+      "id": "1.20.62.03",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.62.03.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.62.03.zip"
+      }
+    },
+    {
+      "id": "1.20.70.05",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.70.05.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.70.05.zip"
+      }
+    },
+    {
+      "id": "1.20.71.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.71.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.71.01.zip"
+      }
+    },
+    {
+      "id": "1.20.72.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.72.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.72.01.zip"
+      }
+    },
+    {
+      "id": "1.20.73.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.73.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.73.01.zip"
+      }
+    },
+    {
+      "id": "1.20.80.05",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.80.05.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.80.05.zip"
+      }
+    },
+    {
+      "id": "1.20.81.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.81.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.81.01.zip"
+      }
+    },
+    {
+      "id": "1.21.0.03",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.0.03.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.0.03.zip"
+      }
+    },
+    {
+      "id": "1.21.1.03",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.1.03.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.1.03.zip"
+      }
+    },
+    {
+      "id": "1.21.2.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.2.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.2.02.zip"
+      }
+    },
+    {
+      "id": "1.21.3.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.3.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.3.01.zip"
+      }
+    },
+    {
+      "id": "1.21.20.03",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.20.03.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.20.03.zip"
+      }
+    },
+    {
+      "id": "1.21.22.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.22.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.22.01.zip"
+      }
+    },
+    {
+      "id": "1.21.23.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.23.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.23.01.zip"
+      }
+    },
+    {
+      "id": "1.21.30.03",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.30.03.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.30.03.zip"
+      }
+    },
+    {
+      "id": "1.21.31.04",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.31.04.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.31.04.zip"
+      }
+    },
+    {
+      "id": "1.21.40.03",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.40.03.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.40.03.zip"
+      }
+    },
+    {
+      "id": "1.21.41.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.41.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.41.01.zip"
+      }
+    },
+    {
+      "id": "1.21.42.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.42.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.42.01.zip"
+      }
+    },
+    {
+      "id": "1.21.43.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.43.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.43.01.zip"
+      }
+    },
+    {
+      "id": "1.21.44.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.44.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.44.01.zip"
+      }
+    },
+    {
+      "id": "1.21.50.10",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.50.10.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.50.10.zip"
+      }
+    },
+    {
+      "id": "1.21.51.01",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.51.01.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.51.01.zip"
+      }
+    },
+    {
+      "id": "1.21.51.02",
+      "type": "release",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.51.02.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.51.02.zip"
+      }
+    },
+    {
+      "id": "1.19.50.21",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.50.21.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.50.21.zip"
+      }
+    },
+    {
+      "id": "1.19.50.24",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.50.24.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.50.24.zip"
+      }
+    },
+    {
+      "id": "1.19.50.25",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.50.25.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.50.25.zip"
+      }
+    },
+    {
+      "id": "1.19.60.20",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.60.20.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.60.20.zip"
+      }
+    },
+    {
+      "id": "1.19.60.22",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.60.22.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.60.22.zip"
+      }
+    },
+    {
+      "id": "1.19.60.23",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.60.23.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.60.23.zip"
+      }
+    },
+    {
+      "id": "1.19.60.24",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.60.24.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.60.24.zip"
+      }
+    },
+    {
+      "id": "1.19.60.25",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.60.25.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.60.25.zip"
+      }
+    },
+    {
+      "id": "1.19.60.26",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.60.26.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.60.26.zip"
+      }
+    },
+    {
+      "id": "1.19.60.27",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.60.27.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.60.27.zip"
+      }
+    },
+    {
+      "id": "1.19.70.20",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.70.20.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.70.20.zip"
+      }
+    },
+    {
+      "id": "1.19.70.21",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.70.21.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.70.21.zip"
+      }
+    },
+    {
+      "id": "1.19.70.22",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.70.22.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.70.22.zip"
+      }
+    },
+    {
+      "id": "1.19.70.23",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.70.23.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.70.23.zip"
+      }
+    },
+    {
+      "id": "1.19.70.24",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.70.24.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.70.24.zip"
+      }
+    },
+    {
+      "id": "1.19.70.26",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.70.26.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.70.26.zip"
+      }
+    },
+    {
+      "id": "1.19.80.20",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.80.20.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.80.20.zip"
+      }
+    },
+    {
+      "id": "1.19.80.21",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.80.21.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.80.21.zip"
+      }
+    },
+    {
+      "id": "1.19.80.22",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.80.22.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.80.22.zip"
+      }
+    },
+    {
+      "id": "1.19.80.23",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.80.23.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.80.23.zip"
+      }
+    },
+    {
+      "id": "1.19.80.24",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.80.24.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.80.24.zip"
+      }
+    },
+    {
+      "id": "1.20.0.20",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.0.20.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.0.20.zip"
+      }
+    },
+    {
+      "id": "1.20.0.21",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.0.21.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.0.21.zip"
+      }
+    },
+    {
+      "id": "1.20.0.22",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.0.22.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.0.22.zip"
+      }
+    },
+    {
+      "id": "1.20.0.23",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.0.23.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.0.23.zip"
+      }
+    },
+    {
+      "id": "1.20.0.24",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.0.24.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.0.24.zip"
+      }
+    },
+    {
+      "id": "1.20.0.25",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.0.25.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.0.25.zip"
+      }
+    },
+    {
+      "id": "1.20.10.20",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.10.20.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.10.20.zip"
+      }
+    },
+    {
+      "id": "1.20.10.21",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.10.21.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.10.21.zip"
+      }
+    },
+    {
+      "id": "1.20.10.23",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.10.23.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.10.23.zip"
+      }
+    },
+    {
+      "id": "1.20.10.24",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.10.24.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.10.24.zip"
+      }
+    },
+    {
+      "id": "1.20.20.20",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.20.20.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.20.20.zip"
+      }
+    },
+    {
+      "id": "1.20.20.21",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.20.21.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.20.21.zip"
+      }
+    },
+    {
+      "id": "1.20.20.22",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.20.22.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.20.22.zip"
+      }
+    },
+    {
+      "id": "1.20.20.23",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.20.23.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.20.23.zip"
+      }
+    },
+    {
+      "id": "1.20.30.20",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.30.20.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.30.20.zip"
+      }
+    },
+    {
+      "id": "1.20.30.21",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.30.21.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.30.21.zip"
+      }
+    },
+    {
+      "id": "1.20.30.22",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.30.22.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.30.22.zip"
+      }
+    },
+    {
+      "id": "1.20.30.24",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.30.24.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.30.24.zip"
+      }
+    },
+    {
+      "id": "1.20.30.25",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.30.25.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.30.25.zip"
+      }
+    },
+    {
+      "id": "1.20.40.20",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.40.20.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.40.20.zip"
+      }
+    },
+    {
+      "id": "1.20.40.21",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.40.21.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.40.21.zip"
+      }
+    },
+    {
+      "id": "1.20.40.22",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.40.22.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.40.22.zip"
+      }
+    },
+    {
+      "id": "1.20.40.23",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.40.23.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.40.23.zip"
+      }
+    },
+    {
+      "id": "1.20.40.24",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.40.24.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.40.24.zip"
+      }
+    },
+    {
+      "id": "1.20.50.20",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.50.20.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.50.20.zip"
+      }
+    },
+    {
+      "id": "1.20.50.21",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.50.21.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.50.21.zip"
+      }
+    },
+    {
+      "id": "1.20.50.22",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.50.22.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.50.22.zip"
+      }
+    },
+    {
+      "id": "1.20.50.23",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.50.23.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.50.23.zip"
+      }
+    },
+    {
+      "id": "1.20.50.24",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.50.24.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.50.24.zip"
+      }
+    },
+    {
+      "id": "1.20.60.20",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.60.20.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.60.20.zip"
+      }
+    },
+    {
+      "id": "1.20.60.21",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.60.21.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.60.21.zip"
+      }
+    },
+    {
+      "id": "1.20.60.22",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.60.22.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.60.22.zip"
+      }
+    },
+    {
+      "id": "1.20.60.23",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.60.23.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.60.23.zip"
+      }
+    },
+    {
+      "id": "1.20.60.24",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.60.24.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.60.24.zip"
+      }
+    },
+    {
+      "id": "1.20.60.25",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.60.25.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.60.25.zip"
+      }
+    },
+    {
+      "id": "1.20.70.20",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.70.20.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.70.20.zip"
+      }
+    },
+    {
+      "id": "1.20.70.21",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.70.21.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.70.21.zip"
+      }
+    },
+    {
+      "id": "1.20.70.22",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.70.22.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.70.22.zip"
+      }
+    },
+    {
+      "id": "1.20.70.24",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.70.24.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.70.24.zip"
+      }
+    },
+    {
+      "id": "1.20.70.25",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.70.25.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.70.25.zip"
+      }
+    },
+    {
+      "id": "1.20.80.20",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.80.20.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.80.20.zip"
+      }
+    },
+    {
+      "id": "1.20.80.21",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.80.21.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.80.21.zip"
+      }
+    },
+    {
+      "id": "1.20.80.22",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.80.22.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.80.22.zip"
+      }
+    },
+    {
+      "id": "1.20.80.23",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.80.23.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.80.23.zip"
+      }
+    },
+    {
+      "id": "1.20.80.24",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.80.24.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.80.24.zip"
+      }
+    },
+    {
+      "id": "1.21.0.20",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.0.20.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.0.20.zip"
+      }
+    },
+    {
+      "id": "1.21.0.21",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.0.21.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.0.21.zip"
+      }
+    },
+    {
+      "id": "1.21.0.22",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.0.22.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.0.22.zip"
+      }
+    },
+    {
+      "id": "1.21.0.23",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.0.23.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.0.23.zip"
+      }
+    },
+    {
+      "id": "1.21.0.24",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.0.24.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.0.24.zip"
+      }
+    },
+    {
+      "id": "1.21.0.25",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.0.25.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.0.25.zip"
+      }
+    },
+    {
+      "id": "1.21.0.26",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.0.26.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.0.26.zip"
+      }
+    },
+    {
+      "id": "1.21.10.20",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.10.20.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.10.20.zip"
+      }
+    },
+    {
+      "id": "1.21.10.21",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.10.21.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.10.21.zip"
+      }
+    },
+    {
+      "id": "1.21.10.22",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.10.22.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.10.22.zip"
+      }
+    },
+    {
+      "id": "1.21.10.23",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.10.23.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.10.23.zip"
+      }
+    },
+    {
+      "id": "1.21.10.24",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.10.24.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.10.24.zip"
+      }
+    },
+    {
+      "id": "1.21.20.21",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.20.21.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.20.21.zip"
+      }
+    },
+    {
+      "id": "1.21.20.22",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.20.22.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.20.22.zip"
+      }
+    },
+    {
+      "id": "1.21.20.23",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.20.23.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.20.23.zip"
+      }
+    },
+    {
+      "id": "1.21.20.24",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.20.24.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.20.24.zip"
+      }
+    },
+    {
+      "id": "1.21.30.21",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.30.21.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.30.21.zip"
+      }
+    },
+    {
+      "id": "1.21.30.22",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.30.22.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.30.22.zip"
+      }
+    },
+    {
+      "id": "1.21.30.23",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.30.23.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.30.23.zip"
+      }
+    },
+    {
+      "id": "1.21.30.24",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.30.24.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.30.24.zip"
+      }
+    },
+    {
+      "id": "1.21.30.25",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.30.25.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.30.25.zip"
+      }
+    },
+    {
+      "id": "1.21.40.20",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.40.20.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.40.20.zip"
+      }
+    },
+    {
+      "id": "1.21.40.21",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.40.21.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.40.21.zip"
+      }
+    },
+    {
+      "id": "1.21.40.22",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.40.22.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.40.22.zip"
+      }
+    },
+    {
+      "id": "1.21.40.23",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.40.23.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.40.23.zip"
+      }
+    },
+    {
+      "id": "1.21.40.25",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.40.25.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.40.25.zip"
+      }
+    },
+    {
+      "id": "1.21.50.20",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.50.20.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.50.20.zip"
+      }
+    },
+    {
+      "id": "1.21.50.22",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.50.22.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.50.22.zip"
+      }
+    },
+    {
+      "id": "1.21.50.24",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.50.24.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.50.24.zip"
+      }
+    },
+    {
+      "id": "1.21.50.25",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.50.25.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.50.25.zip"
+      }
+    },
+    {
+      "id": "1.21.50.26",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.50.26.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.50.26.zip"
+      }
+    },
+    {
+      "id": "1.21.50.28",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.50.28.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.50.28.zip"
+      }
+    },
+    {
+      "id": "1.21.50.29",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.50.29.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.50.29.zip"
+      }
+    },
+    {
+      "id": "1.21.60.21",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.60.21.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.60.21.zip"
+      }
+    },
+    {
+      "id": "1.21.60.22",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.60.22.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.60.22.zip"
+      }
+    },
+    {
+      "id": "1.21.60.23",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.60.23.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.60.23.zip"
+      }
+    },
+    {
+      "id": "1.21.60.24",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.60.24.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.60.24.zip"
+      }
+    },
+    {
+      "id": "1.21.60.27",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.60.27.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.60.27.zip"
+      }
+    },
+    {
+      "id": "1.21.60.28",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.60.28.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.60.28.zip"
+      }
+    },
+    {
+      "id": "1.21.70.20",
+      "type": "preview",
+      "url": {
+        "win": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.70.20.zip",
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.70.20.zip"
+      }
+    }
+  ]
+}

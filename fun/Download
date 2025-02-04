@@ -1,0 +1,38 @@
+#!/bin/env bash
+import logMessage
+import increCounter
+function Download(){
+file="$1"
+URL="$2"
+local i=0
+DownloadStart(){
+  until ${Command}
+  do
+    if increCounter
+    then
+      log.warn "数据获取失败 重试中"
+    else
+      log.error "数据无法获取 请检查"
+      return 1
+    fi
+    sleep 3s
+  done
+  return 0
+}
+if $(command -v wget > /dev/null 2>&1) && $(wget --help all | grep -q show-progress)
+then
+  Command="wget --quiet --show-progress --output-document="${file}" --continue "${URL}""
+  DownloadStart
+elif $(command -v curl > /dev/null 2>&1) && $(curl --help all | grep -q progress-bar)
+then
+  Command="curl --output "${file}" --progress-bar --location --continue-at - "${URL}""
+  DownloadStart
+elif $(command -v wget > /dev/null 2>&1)
+then
+  Command="wget --output-document="${file}" --continue "${URL}""
+  DownloadStart
+else
+  log.error "无下载器"
+  return 2
+fi
+}

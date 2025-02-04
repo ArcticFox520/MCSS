@@ -1,0 +1,10 @@
+{
+  "core": "Java",
+  "version": "1.21.4",
+  "StartName": "FOX-Server",
+  "FRPC": "false",
+  "IHS": "1024M",
+  "MHS": "2048M",
+  "AutoStart": "false",
+  "SendEmail": "false"
+}

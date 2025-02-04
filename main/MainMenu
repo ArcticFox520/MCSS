@@ -1,0 +1,78 @@
+#!/bin/env bash
+import logMessage
+import TUISoftware
+import setMenuSize
+import setMsgboxSize
+import
+TitleText="AF-MCSS"
+
+function MenuTips(){
+  
+}
+
+function ServerList(){
+  if [ ! -d $MCSSHOME/Server ];then
+    mkdir -p $MCSSHOME/Server
+  fi
+  ServerList=$(ls $MCSSHOME/Server)
+  if [ -z ${ServerList} ];then
+    $(TUISoftware) --title "${TitleText}" \
+    --msgbox "[错误] 未创建服务器" \
+    $(setMsgboxSize)
+    return 1
+  fi
+  unset i Options
+  for i in ${ServerList[@]}
+  do
+    Options="${i} 🍥 ${Options}"
+  done
+  export ServerName=$($(TUISoftware) \
+  --title "${TitleText}" --menu "请选择服务器" \
+  $(setMenuSize) \
+  ${Options} \
+  3>&1 1>&2 2>&3)
+  export StartName=${ServerName}
+  local file="$MCSSHOME/Server/${ServerName}/config.json"
+  export core=$(jq -r .core ${file})
+}
+
+function ManageServer(){
+  ServerList
+  cd $MCSSHOME/Server/${ServerName}
+  bash $MCSSHOME/main/SubMenu
+}
+
+function CreateServer(){
+  cd $MCSSHOME
+  
+}
+
+function DeleteServer(){
+  ServerList
+}
+
+function MainMenu(){
+Number=$($(TUISoftware) \
+--title "${TitleText}" \
+--menu "MCSS 欢迎您的使用! " \
+$(setMenuSize) \
+"1" "管理服务器" \
+"2" "新建服务器" \
+"3" "删除服务器" \
+"4" "FRPC管理" \
+"5" "进入bash" \
+"0" "  返回  " \
+3>&1 1>&2 2>&3)
+case ${Number} in
+  1)
+  ManageServer
+  ;;
+  2)
+  CreateServer
+  ;;
+  3)
+  DeleteServer
+  ;;
+esac
+}
+

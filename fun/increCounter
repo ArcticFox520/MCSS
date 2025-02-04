@@ -1,5 +1,5 @@
 #!/bin/env bash
-function incrementCounter(){
+function increCounter(){
   if [ -z ${count} ]
   then
     export count=0

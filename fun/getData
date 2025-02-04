@@ -1,8 +1,10 @@
 #!/bin/env bash
+import increCounter
+import errorReturn
 function getData(){
   until curl "$1"
   do
-    if IncrementCounter
+    if IncreCounter
     then
       log.warn "数据获取失败 重试中"
     else

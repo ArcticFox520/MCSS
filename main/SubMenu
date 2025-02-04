@@ -1,0 +1,53 @@
+#!/bin/env bash
+import logMessage
+import TUISoftware
+import setMenuSize
+import setMsgboxSize
+import getPort
+TitleText="${core}-管理"
+
+function StartServer(){
+  StartCommand=$(jq -r .StartCommand config.json)
+  if [ -e server.properties ]
+  then
+    Port=$(getPort)
+  fi
+  
+  if ${StartCommand}
+  then
+    
+  else
+    
+  fi
+}
+
+function StopServer(){
+  
+}
+
+function RestartServer(){
+  
+}
+
+function SubMenu(){
+Number=$($(TUISoftware) \
+--title "${TitleText}" \
+--menu "MCSS 欢迎您的使用! " \
+$(setMenuSize) \
+"1" "启动服务器" \
+"2" "停止服务器" \
+"3" "重启服务器" \
+"0" "  返回  " \
+3>&1 1>&2 2>&3)
+case ${Number} in
+  1)
+  StartServer
+  ;;
+  2)
+  StopServer
+  ;;
+  3)
+  RestartServer
+  ;;
+esac
+}

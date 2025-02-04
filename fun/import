@@ -1,2 +1,4 @@
 #!/bin/env bash
-source "${MCSSHOME}"/fun/"$1"
+function import(){
+  source "${MCSSHOME}"/fun/"$1"
+}

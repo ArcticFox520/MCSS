@@ -1,0 +1,9 @@
+#!/bin/env bash
+function getPort(){
+  loacl file="server.properties"
+  case ${core} in
+  Java)
+    grep server-port ${file} | sed 's|server-port=||'
+  ;;
+  esac
+}

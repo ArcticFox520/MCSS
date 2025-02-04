@@ -1,10 +1,11 @@
 #!/bin/env bash
+import printTime
 function log.info(){
-  echo -e [${green}提示${white}][$(printTime)]${green}"$1"${background}
+  echo -e [${green}提示${white}][$(printTime)]${cyan}"$@"${background}
 }
 function log.warn(){
-  echo -e [${yellow}警告${white}][$(printTime)]${yellow}"$1"${background}
+  echo -e [${yellow}警告${white}][$(printTime)]${cyan}"$@"${background}
 }
 function log.error(){
-  echo -e [${red}错误${white}][$(printTime)]${red}"$1"${background}
+  echo -e [${red}错误${white}][$(printTime)]${cyan}"$@"${background}
 }

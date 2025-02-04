@@ -1,0 +1,11 @@
+#!/bin/env bash
+function Arch(){
+  case $(uname -m) in
+  arm64|aarch64)
+    echo arm64
+    ;;
+  amd64|x86_64)
+    echo amd64
+    ;;
+  esac
+}

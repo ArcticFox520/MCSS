@@ -1,0 +1,35 @@
+#!/bin/env bash
+import getPort
+import setMsgboxSize
+function ProgressT(){
+  {
+    local i=0
+    until nmap -sT 127.0.0.1 -p $(getPort) | grep open > /dev/null 2>&1
+    do
+      i=$((i+1))
+      echo ${i}
+    done
+  } | whiptail --gauge "正在启动 ${ServerName}" $(setMsgboxSize)
+}
+function ProgressU(){
+  {
+    local i=0
+    until nmap -sU 127.0.0.1 -p $(getPort) | grep open > /dev/null 2>&1
+    do
+      i=$((i+1))
+      echo ${i}
+    done
+  } | whiptail --gauge "正在启动 ${ServerName}" $(setMsgboxSize)
+}
+function checkPort(){
+  case ${core} in
+  Java)
+    if nmap -sT 127.0.0.1 -p $(getPort) | grep closed > /dev/null 2>&1
+    then
+      
+    else
+      
+    fi
+  ;;
+  esac
+}
