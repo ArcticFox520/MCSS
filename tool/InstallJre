@@ -1,0 +1,111 @@
+#!/bin/env bash
+import setMsgboxSize
+import setMenuSize
+import logMessage
+import TUISoftware
+import getData
+import Download
+
+TitleText="JRE-安装"
+ApiURL="https://api.adoptium.net/v3/info/available_releases"
+
+function JRESelectVersion(){
+  if ($(TUISoftware) --title "${TitleText}"  \
+  --yes-button "LTS版本" \
+  --no-button "全部版本" \
+  --yesno "请选择JRE版本类型" \
+  $(setMsgboxSize))
+  then
+    log.info 正在获取 JRE版本信息
+    VersionData=$(getData ${ApiURL} | jq -r .available_lts_releases[])
+  else
+    log.info 正在获取 JRE版本信息
+    VersionData=$(getData ${ApiURL} | jq -r .available_releases[])
+  fi
+  unset Options i
+  for i in ${VersionData[@]}
+  do
+    Options="${i} JRE ${Options}"
+  done
+  version=$($(TUISoftware) \
+  --title "${TitleText}" --menu "请选择JRE版本" \
+  $(setMenuSize) \
+  ${Options} \
+  3>&1 1>&2 2>&3)
+}
+function JREAutoVersion(){
+  local version=$1
+  local major=$(echo "$version" | cut -d '.' -f 1)
+  local minor=$(echo "$version" | cut -d '.' -f 2)
+  case ${major} in
+    [0-9]*)
+      case ${minor} in
+        [0-9]*)
+          if (( major < 1 )); then
+            echo 8
+          elif (( major == 1 && minor < 17 ));then
+            echo 8
+          elif (( major == 1 && minor < 18 ));then
+            echo 16
+          elif (( major == 1 && minor < 20 ));then
+            echo 17
+          else
+            echo 21
+          fi
+          ;;
+        *)
+          echo ${major} ${minor}
+          log.error 错误抛出
+          ;;
+      esac
+      ;;
+    *)
+      echo ${major} ${minor}
+      log.error 错误抛出
+      ;;
+  esac
+}
+
+case $1 in
+  JREAutoVersion)
+    version=$(JREAutoVersion)
+    if [ -d $MCSSHOME/JRE/JRE-${version} ];then
+      $(TUISoftware) --title "${TitleText}" \
+      --msgbox "[提示] JRE-${version} 已安装" \
+      $(setMsgboxSize)
+      exit 0
+    fi
+  ;;
+  *)
+    JRESelectVersion
+    if [ -d $MCSSHOME/JRE/JRE-${version} ];then
+      $(TUISoftware) --title "${TitleText}" \
+      --msgbox "[错误] JRE-${version} 已安装" \
+      $(setMsgboxSize)
+      exit 2
+    fi
+  ;;
+esac
+
+JREURL="https://api.adoptium.net/v3/binary/latest/${version}/ga/linux/$(Arch Java)/jre/hotspot/normal/eclipse"
+log.info 开始下载 jre.tar.gz
+Download jre.tar.gz ${JREURL}
+
+if [ ! -d $HOME/JRE ];then
+  mkdir $HOME/JRE
+fi
+log.info 开始解压 jre.tar.gz
+if pv jre.tar.gz | tar -zxf - -C $HOME/JRE > /dev/null 2>&1
+then
+  log.info 解压完成
+  if [ ! -d $MCSSHOME/JRE ]
+  then
+    mkdir $MCSSHOME/JRE
+  fi
+  mv $HOME/JRE/$(ls $HOME/JRE) $MCSSHOME/JRE/JRE-${version}
+  rm -rf jre.tar.gz JRE
+else
+  rm -rf jre.tar.gz JRE
+  log.error 解压失败
+  exit 2
+fi
