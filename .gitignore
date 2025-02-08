@@ -1,4 +1,4 @@
-./Server
-./JRE
-./Server/*
-./JRE/*
+Server
+JRE
+Server/*
+JRE/*
